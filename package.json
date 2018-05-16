@@ -1,10 +1,14 @@
 {
   "name": "archmfront",
   "version": "0.0.1",
+  "main": "main.js",
+  "homepage": ".",
+  "DEV": true,
   "private": true,
   "dependencies": {
     "antd": "^3.5.1",
     "axios": "^0.18.0",
+    "electron": "^2.0.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -21,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ele": "electron ."
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

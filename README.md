@@ -1,3 +1,63 @@
+# Archm front
+
+## how to run this project
+
+### run in browser
+```bash
+yarn run start
+```
+### run electron
+
+```bash
+yarn run start
+#then open another terminal and run 
+yarn run ele
+```
+## note
+
+```bash
+yarn add electron
+```
+
+config `package.json`
+
+add 3 lines
+
+```json
+{
+  ...
+  "main": "main.js",
+  "homepage": ".",
+  "DEV": true,
+  "scripts": {
+    ...
+    "ele": "electron ."
+    ...
+  }
+  ...
+}
+```
+
+then copy `main.js` file to this project and modify those lines
+
+> PS `main.js` is copy from the [repo](https://github.com/electron/electron-quick-start)
+```js
+...
+const pkg = require('./package.json')
+...
+  if(pkg.DEV){
+    mainWindow.loadURL("http://localhost:3000")
+  } else{
+    mainWindow.loadURL(url.format({
+      pathname: path.join(__dirname, './build/index.html'),
+      protocol: 'file:',
+      slashes: true
+    }))
+  }
+...
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
