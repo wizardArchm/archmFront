@@ -15,6 +15,8 @@ import logger from 'redux-logger'
 
 import HomeContainer from './container/HomeContainer'
 import messages_zh from './translations/zh.json'
+import GlobalReducer from './redux/reducer/GlobalReducer'
+import GlobalSaga from './redux/saga/GlobalReducerSaga'
 
 //intl
 const messages = {
@@ -30,7 +32,7 @@ const myRouterMiddleware = routerMiddleware(history)
 const sagaMiddleware = createSagaMiddleware()
 const store = createStore(
     combineReducers({
-        // GlobalReducer,
+        GlobalReducer,
         // S3Reducer,
         router: routerReducer
     }),
@@ -40,7 +42,7 @@ const store = createStore(
         applyMiddleware(logger)
     )
 )
-// sagaMiddleware.run(GlobalSaga)
+sagaMiddleware.run(GlobalSaga)
 // sagaMiddleware.run(S3Saga)
 ReactDOM.render(
     <Provider store={store}>
@@ -53,5 +55,5 @@ ReactDOM.render(
             </ConnectedRouter>
         </IntlProvider>
     </Provider>
-, document.getElementById(`root`))
+    , document.getElementById(`root`))
 registerServiceWorker()

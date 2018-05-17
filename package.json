@@ -31,5 +31,10 @@
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "babel-plugin-react-intl": "^2.4.0"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:3003"
+    }
   }
 }
