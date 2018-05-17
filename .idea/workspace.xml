@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6173751-820a-4567-9101-e936cd9d950e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/RestClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/RestClient.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/archmfront.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/archmfront.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GraphqlClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GraphqlClient.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/HomeContainer/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/HomeContainer/HomeContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action/GlobalReducerAction/GlobalReducerAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/GlobalReducerAction/GlobalReducerAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/constant/ActionName/GlobalReducerActionName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/constant/ActionName/GlobalReducerActionName.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/GlobalReducer/GlobalReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/GlobalReducer/GlobalReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/saga/GlobalReducerSaga/GlobalReducerSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/saga/GlobalReducerSaga/GlobalReducerSaga.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +18,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeContainer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeContainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/container/HomeContainer/HomeContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="180">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphqlClient.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/GraphqlClient.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphqlClient.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/api/GraphqlClient.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -43,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="React Component Test" />
       </list>
     </option>
@@ -69,6 +83,8 @@
         <option value="$PROJECT_DIR$/src/redux/saga/GlobalReducerSaga/GlobalReducerSaga.js" />
         <option value="$PROJECT_DIR$/src/redux/reducer/GlobalReducer/GlobalReducer.js" />
         <option value="$PROJECT_DIR$/src/container/HomeContainer/HomeContainer.js" />
+        <option value="$PROJECT_DIR$/src/api/GraphqlClient.js" />
+        <option value="$PROJECT_DIR$/src/api/GraphqlClient.test.js" />
       </list>
     </option>
   </component>
@@ -137,36 +153,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="archmfront" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archmfront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archmfront" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archmfront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="GlobalReducerAction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archmfront" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archmfront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="archmfront" type="b2602c69:ProjectViewProjectNode" />
-              <item name="archmfront" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducer" type="462c0819:PsiDirectoryNode" />
-              <item name="GlobalReducer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -205,7 +191,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.default test for GraphqlClient.test">
+    <configuration name="default test for GraphqlClient.test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/api/GraphqlClient.test.js" />
+      <test-names>
+        <test-name value="default test for GraphqlClient.test" />
+      </test-names>
+    </configuration>
     <configuration name="default test for RestClient.test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -217,8 +214,13 @@
         <test-name value="default test for RestClient.test" />
       </test-names>
     </configuration>
+    <list>
+      <item itemvalue="Jest.default test for RestClient.test" />
+      <item itemvalue="Jest.default test for GraphqlClient.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.default test for GraphqlClient.test" />
         <item itemvalue="Jest.default test for RestClient.test" />
       </list>
     </recent_temporary>
@@ -235,8 +237,16 @@
       <updated>1526449928546</updated>
       <workItem from="1526449930330" duration="573000" />
       <workItem from="1526451170519" duration="121000" />
-      <workItem from="1526523061767" duration="2880000" />
+      <workItem from="1526523061767" duration="6269000" />
     </task>
+    <task id="LOCAL-00001" summary="redux example">
+      <created>1526526053935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526526053935</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -249,23 +259,32 @@
     <history-entry file="default_test_for_RestClient_test - 2018.05.17 at 10h 33m 25s.xml">
       <configuration name="default test for RestClient.test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="default_test_for_GraphqlClient_test - 2018.05.17 at 14h 39m 56s.xml">
+      <configuration name="default test for GraphqlClient.test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="default_test_for_GraphqlClient_test - 2018.05.17 at 14h 40m 40s.xml">
+      <configuration name="default test for GraphqlClient.test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="default_test_for_GraphqlClient_test - 2018.05.17 at 14h 40m 44s.xml">
+      <configuration name="default test for GraphqlClient.test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3574000" />
+    <option name="totallyTimeSpent" value="6963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-508" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21274355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21274355" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.215625" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.215625" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,6 +301,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="redux example" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -384,8 +407,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/container/HomeContainer/HomeContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/GraphqlClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/GraphqlClient.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
